@@ -15,10 +15,8 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 	  
-    <link href="../assets/style.css" rel="stylesheet">
-
+<link href="../assets/style.css" rel="stylesheet">
   </head>
 
   <body>
@@ -45,18 +43,22 @@
 
     <div class="container theme-showcase" role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Busque por um perfil do GitHub:</h1>
+		<form class="search-form">
+			<input type="text" class="search" placeholder="name or nickName">
+			<ul class="suggestions">
+			</ul>
+		 </form>
       </div>
 		      <button type="button" class="btn btn-lg btn-success">Success</button>
 
-
+		<div class="jumbotron profile">
+		</div>
       
     </div> <!-- /container -->
 
-
-
+<script src="home.js"></script>
     
   </body>
 </html>
