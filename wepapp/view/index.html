@@ -15,10 +15,8 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 	  
-    <link href="../assets/style.css" rel="stylesheet">
-
+<link href="../assets/style.css" rel="stylesheet">
   </head>
 
   <body>
@@ -39,24 +37,135 @@
             <li class="active"><a href="#">Home</a></li>
 			
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
     <div class="container theme-showcase" role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Busque por um perfil do GitHub:</h1>
-      </div>
-		      <button type="button" class="btn btn-lg btn-success">Success</button>
-
-
+		<form class="search-form">
+			<input type="text" class="search form-control" placeholder="name or nickName">
+			<ul class="suggestions">
+			</ul>
+			<button type="button" class="btn btn-lg btn-success">Buscar</button>
+		 </form>
+		</div>
+		
+		<div class="jumbotron profile">
+		</div>
+		<div class="jumbotron repositories">
+			<ul class="searchRepo list-group"></ul>
+		</div>
+	
+		<div class="jumbotron">
+			<ul class="list-group repoInfo"></ul>
+		</div>
+		<!--
+		<div class="jumbotron repositories">
+			<ul class="searchRepo">
+      <li class="repo">
+        <span class="name">bookSearch, 0</span>
+		<button type="button" data-key="hcarine/bookSearch" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">computacao-Grafica, 0</span>
+		<button type="button" data-key="hcarine/computacao-Grafica" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">create-react-app, 0</span>
+		<button type="button" data-key="hcarine/create-react-app" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">front_end_Javascript, 0</span>
+		<button type="button" data-key="hcarine/front_end_Javascript" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">fullstack-course4, 0</span>
+		<button type="button" data-key="hcarine/fullstack-course4" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">gitHubStatus, 0</span>
+		<button type="button" data-key="hcarine/gitHubStatus" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">html-css-js-course, 0</span>
+		<button type="button" data-key="hcarine/html-css-js-course" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">javascript30, 0</span>
+		<button type="button" data-key="hcarine/javascript30" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">JavaScript30-1, 0</span>
+		<button type="button" data-key="hcarine/JavaScript30-1" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">js4Girls-Joinville, 2</span>
+		<button type="button" data-key="hcarine/js4Girls-Joinville" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">nodeFistAplication, 0</span>
+		<button type="button" data-key="hcarine/nodeFistAplication" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">previsaoTempo, 0</span>
+		<button type="button" data-key="hcarine/previsaoTempo" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">scooter, 0</span>
+		<button type="button" data-key="hcarine/scooter" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">teste99, 0</span>
+		<button type="button" data-key="hcarine/teste99" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">treinamento-front-end_v1, 0</span>
+		<button type="button" data-key="hcarine/treinamento-front-end_v1" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    
+      <li class="repo">
+        <span class="name">UniversityForPeople, 0</span>
+		<button type="button" data-key="hcarine/UniversityForPeople" class="btn btn-lg btn-success searchRepo">Buscar</button>
+        
+      </li>
+    </ul>
+		</div>-->
       
     </div> <!-- /container -->
 
-
-
+<script src="home.js"></script>
     
   </body>
 </html>
